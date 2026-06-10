@@ -58,7 +58,7 @@ I specialize in real-time systems, multi-tier access control, event-driven archi
 ## GitHub stats
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Anubhav-Chauhan3367&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_rank=false&hide=issues" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Anubhav-Chauhan3367&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_rank=true&hide=issues" alt="GitHub Stats" />
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anubhav-Chauhan3367&layout=compact&hide_border=true&langs_count=5&hide=blade,php,css,html" alt="Top Languages" />
 </p>
 
