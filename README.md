@@ -1,39 +1,63 @@
-# Anubhav Chauhan
-Software Development Engineer
+# Hi, I'm Anubhav Chauhan 👋
 
-Email: anubhavchauhan3011@gmail.com
+**Full-Stack Engineer** · TypeScript · NestJS · Next.js 14 · MongoDB · Redis · Socket.io
 
-Phone: 9027994425
+Based in Delhi NCR, India · Open to remote roles
 
-## Find Me Online
+---
+
+## About me
+
+Full-stack engineer with 2+ years building production systems end-to-end. Primary engineer on **NexGen** — an enterprise project control & compliance platform for real estate developers — for 17 months. I own the full stack: real-time collaborative locking, multi-tier access control, event-driven notifications, and server-side document generation pipelines across **474 REST endpoints** and **3 repositories**.
+
+Currently deepening my distributed systems knowledge through hands-on side projects.
+
+---
+
+## Tech stack
+
+**Languages**
+`TypeScript` `JavaScript (ES6+)` `Java`
+
+**Frontend**
+`Next.js 14 (App Router)` `React.js` `Tailwind CSS` `shadcn/ui` `Radix UI` `Zustand` `TanStack Query` `Zod` `React Hook Form` `DnD Kit`
+
+**Backend**
+`NestJS` `Node.js` `Express.js` `MongoDB` `Redis` `Socket.io` `Bull queues` `REST APIs` `PDFKit` `ExcelJS` `Docxtemplater`
+
+**Tools & Infra**
+`Docker` `Git` `GitHub Actions` `AWS S3` `SendGrid` `NextAuth` `CI/CD` `Figma`
+
+---
+
+## What I've built at FiftyFive Technologies
+
+**NexGen — Enterprise Project Control & Compliance Platform**
+
+- Designed a **WebSocket-based concurrent editing lock** using Socket.io + Redis pub/sub — horizontally scalable across backend instances, eliminating split-brain conflicts across concurrent sessions
+- Architected a **3-tier RBAC system** for external consultants (organisation → project → task/subtask) with time-bounded access, automated email triggers on grant/revoke, and cross-org invitation support — 1,783 lines of core business logic across 17 async methods
+- Refactored a monolithic endpoint into a **3-tier lazy-load architecture** — eliminating all optional column data from page load
+- Eliminated per-document **N+1 joins** from notification queries using `.lean()` and `.select()` projection — cutting ~32% of fields transferred per request
+- Designed the **frontend architecture** across all platform modules — App Router, shadcn/ui on Radix primitives, Zustand for cross-module state, TanStack Query with optimistic updates, Zod + React Hook Form for end-to-end type safety — adopted as the team standard
+- Built end-to-end: **notification engine** (12+ event types, per-user preferences) · **server-side document pipeline** (PDF/Excel/DOCX from live data) · **Google Drive–style file system** with granular RBAC and cross-org sharing
+
+---
+
+## Currently working on
+
+- **Distributed rate-limiter** — Redis-based sliding window + token bucket implementation; deep-dive into distributed systems primitives
+- **NeetCode 150** — daily DSA practice (Easy/Medium)
+- **System design** — building structured revision notes on CAP theorem, consistent hashing, Kafka, sharding, and the 7-step interview framework
+
+---
+
+## Get in touch
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anubhavchauhan3367/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/Anubhav-Chauhan3367)
-[![Portfolio](https://img.shields.io/badge/Portfolio-1A1014?logo=netlify&logoColor=white)](https://tubular-nougat-1a1014.netlify.app/)
+[![Email](https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white)](mailto:anubhavchauhan3011@gmail.com)
 
-## Skills
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![React.js](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express-000000?logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-![Mongoose](https://img.shields.io/badge/Mongoose-880000?logo=mongoose&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+---
 
-## Summary
-I'm a Software Development Engineer with expertise in **Java** and **JavaScript.** I specialize in full-stack web development, with a focus on the **MERN stack** (MongoDB, Express.js, React.js, Node.js). I have a strong background in data structures, algorithms, and various other technologies, including Git and GitHub for version control.
-
-🔥 Streaks
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Anubhav-Chauhan3367)
-
-
-📈 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Anubhav-Chauhan3367&show_icons=true&theme=radical)
-
-
-## Contact
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/anubhavchauhan3367/) or explore my [GitHub](https://github.com/Anubhav-Chauhan3367). For a closer look at my work, check out my [portfolio](https://tubular-nougat-1a1014.netlify.app/).
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Anubhav-Chauhan3367&show_icons=true&hide_border=true&count_private=true&theme=default" alt="GitHub stats" />
+</p>
